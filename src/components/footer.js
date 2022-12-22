@@ -6,9 +6,8 @@ import * as styles from './footer.module.css'
 const Footer = () => (
   <Container as="footer">
     <div className={styles.container}>
-      Built with <a href="https://contentful.com/">Contentful</a> and{' '}
-      <a href="https://gatsbyjs.com">Gatsby</a> &middot;{' '}
-      <a href="https://github.com/contentful/starter-gatsby-blog">Source</a>
+      Code and content by <a href="https://davidkong.dev">David Kong</a>{' '}
+      &middot; 2023
     </div>
   </Container>
 )

@@ -6,6 +6,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Define a template for blog post
   const blogPost = path.resolve('./src/templates/blog-post.js')
 
+  const contentTypeFilter = {}
+
   const result = await graphql(
     `
       {
